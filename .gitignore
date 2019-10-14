@@ -1,0 +1,16 @@
+/node_modules
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/public/images
+/public/app
+/public/photos
+/public/uploads/images/*
+/public/uploads/images/filemanager/
+/public/uploads/images/thumbs/
+Homestead.json
+Homestead.yaml
+.env
+/.git_old
+
