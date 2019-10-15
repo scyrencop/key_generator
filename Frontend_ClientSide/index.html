@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Key Generator App</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>Key Generator App</h1>
+
+    <div class="container text-center">
+
+
+        <button class="form-control" id="keygen">Generate Key</button>
+            <br>
+            <input name="name" id="name" class="form-control" type="text" placeholder="Name" />
+            <br>
+            <input name="key" class="form-control" id="key" type="text"
+                placeholder="Click on the button to generate a new key licence..." required="" readonly />
+            <br>
+            <button onclick="createKey()" class="form-control">Save</button>
+
+
+        <br>
+        <table id="my_table" class="table responsive">
+                <thead>
+                    <th> ID </th>
+                    <th> NAME </th>
+                    <th> KEY </th>
+                    <th> CREATED AT </th>
+                    <th> ACTION </th>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="demo"></div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
